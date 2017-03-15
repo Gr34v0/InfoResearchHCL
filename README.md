@@ -11,8 +11,21 @@ This is a quick Repo designed to hold just the ReadMe.md which contains some inf
 
 * https://en.wikipedia.org/wiki/Netlist
   
-3. REST API
-  Rest API
+3. A REST API stands for a "**Re**presentational **S**tate **T**ransfer" API. REST is resource based which means that within the API, things and nouns are referenced rather than actions and verbs (person, user, address resources rather than methods and actions). Reprentations are how resources are manipulated. Clients can hold representations of resources as JSON, XML, CSV and other types of information formats, and can then modify resources on a server, given permission. The Uniform Interface defines the communication between the client and server via a communication method such as HTTP which has verbs such as GET, PUT, POST and DELETE and the URIs (Uniform Resource Identifiers) that are the resource names that are being dealt with. A requirement of REST is that it is stateless. The server contains no state data, and each request has enough context information to process a message properly. This is called having a "Self-descriptive message". The only state of the system is held on the client. A client will not always have direct connections to a server, but the Uniform Interface is the link between the two. This means that when writing a RESTful application, you need to assume that the information being sent to the client is not always from the server, and could be cached or modified by external software or hardware. All the client knows is the Uniform Interface and the information that's being recieved from said interface. Code On Demand can allow a server to send code logic such as Java or Javascript to the client for the client to execute on behalf of the server. In order for an application to be truely RESTful, it must comply with the following constraints; The application must be Scablable, Simplistic, Modifiable, Visible, Portable and Reliable. 
 
-4. MongoDB & CouchDB
-  CouchDB
+* Fredrich, Todd (2012-05-30). "Intro to REST (aka. What is REST Anyway?)"
+
+4. MongoDB and CouchDB are similar database frameworks that use the NO-SQL model, meaning the data stored in the database is Document-Oriented. The following is a table of the differences between MongoDB and CouchDB.
+
+|            | CouchDB      | MongoDB  |
+|:---------- |:------------:|:--------:|
+| Data Model     | Document-Oriented JSON  | Document-Oriented BSON |
+| Interface      | HTTP/REST      | Custom TCP/IP protocol   |
+| Object Storage | Database contains Documents | Database contains Collections that contain Documents |
+| Query Method   | Map/Reduce (JS + others) creating Views + Range queries | Map/Reduce (JS) creating collections Object-Based query language |
+| Replication    | Master-Master with custom conflict resolution functions | Master-Slave |
+| Concurrency    | MultiVersion Concurrency Control | Update in-place |
+| Language       | Erlang | C++ |
+
+
+
