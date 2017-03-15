@@ -1,8 +1,8 @@
-# InfoResearchHCL
+# Research Topics
 This is a quick Repo designed to hold just the ReadMe.md which contains some information I was requested to research.
 
 1. DevOps
-  DevOps
+..  DevOps
   
 2. Netlist Files
   Netlist
