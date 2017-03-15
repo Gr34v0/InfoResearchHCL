@@ -27,5 +27,7 @@ This is a quick Repo designed to hold just the ReadMe.md which contains some inf
 | Concurrency    | MultiVersion Concurrency Control | Update in-place |
 | Language       | Erlang | C++ |
 
+MongoDB focuses on Consistency which means that all the clients can always view the same data, and Partition Tolerance which means that the system will function properly despite being on a physically partitioned network. CouchDB shares MongoDBs focus on Partition Tolerance, but lacks the Consistency instead having an Availability focus where each client can always read and write to the database.
 
-
+* Lana, Gabriele (2010-01-24) "CouchDB vs MongoDB" (http://www.slideshare.net/gabriele.lana/couchdb-vs-mongodb-2982288)
+* Gorst, Dan (2014-08-04) "MongoDB vs CouchDB" (http://blog.scottlogic.com/2014/08/04/mongodb-vs-couchdb.html)
