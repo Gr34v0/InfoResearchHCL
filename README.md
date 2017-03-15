@@ -7,8 +7,9 @@ This is a quick Repo designed to hold just the ReadMe.md which contains some inf
 * Chen Lianping (2015). "Coninutous Delivery: Huge Benefits, but Challenges Too" IEEE Software 32
 * Kim, Gene. "The Three Ways: The Principles Underpinning DevOps"
 
-2. Netlist Files
-  Netlist
+2. Netlist Files are simple files that are meant to represent a circuit design to be used on a PCB. They consist of a list of terminals (pins) of the components in a circuit and a list of the conductors that connect the terminals. When two or more terminals are connected by a conductor, that conductor is called a net. There are a few versions of netlists which can be physical or logical, instance based or net based, flat or heirarchical, and if the netlist is heirarchical it can be folded or unfolded. A folded hierarchy lets one definition represent several instances, whereas an unfolted hierarchy has one-to-one definition to instance representation.
+
+* https://en.wikipedia.org/wiki/Netlist
   
 3. REST API
   Rest API
